@@ -1,0 +1,2 @@
+ALTER TABLE dbo.ClientManager
+ADD BlockedAccountInvalidPassword bit
