@@ -1,6 +1,6 @@
 ﻿
 
--- un comentario
+-- un comentario modificado
 ALTER TABLE [user]
 ALTER COLUMN PhoneNumber varchar(25) null
 GO
