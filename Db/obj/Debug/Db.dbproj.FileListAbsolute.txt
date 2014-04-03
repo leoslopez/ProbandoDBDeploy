@@ -1,0 +1,11 @@
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Script.PreDeployment.sql
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Script.PostDeployment.sql
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Database.sqlsettings
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Database.sqldeployment
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Database.sqlcmdvars
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Database_TestLabe01.sqldeployment
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Doppler2011_Local_Database_Release.sqldeployment
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Db.deploymanifest
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\Db.dbschema
+C:\Users\llopez\Documents\GitHub\Doppler\Db\sql\debug\OldDb.dbschema
+C:\Users\llopez\Documents\GitHub\Doppler\Db\obj\Debug\Db.dbschema

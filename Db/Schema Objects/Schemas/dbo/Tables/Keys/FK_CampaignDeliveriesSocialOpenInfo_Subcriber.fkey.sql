@@ -1,0 +1,2 @@
+﻿ALTER TABLE [dbo].CampaignDeliveriesSocialOpenInfo
+    ADD CONSTRAINT [FK_CampaignDeliveriesSocialOpenInfo_Subscriber] FOREIGN KEY ([IdSubscriber]) REFERENCES [dbo].[Subscriber] ([IdSubscriber]) ON DELETE CASCADE ON UPDATE NO ACTION;

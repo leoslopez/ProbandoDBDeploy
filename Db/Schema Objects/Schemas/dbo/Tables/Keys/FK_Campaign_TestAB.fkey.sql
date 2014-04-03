@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Campaign]
+    ADD CONSTRAINT [FK_Campaign_TestAB] FOREIGN KEY ([IdTestAB]) REFERENCES [dbo].[TestAB] ([IdTestAB]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

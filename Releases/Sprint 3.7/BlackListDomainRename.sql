@@ -1,1 +1,0 @@
-﻿sp_RENAME 'BlacklistDomain' , 'BlackListDomain'

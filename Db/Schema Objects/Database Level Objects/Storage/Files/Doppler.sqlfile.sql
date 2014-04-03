@@ -1,0 +1,3 @@
+﻿ALTER DATABASE [$(DatabaseName)]
+    ADD FILE (NAME = [Doppler], FILENAME = '$(DefaultDataPath)Doppler2011.MDF', SIZE = 10240 KB, FILEGROWTH = 10240 KB) TO FILEGROUP [PRIMARY];
+

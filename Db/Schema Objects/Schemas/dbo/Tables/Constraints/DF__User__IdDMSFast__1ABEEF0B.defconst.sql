@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[User]
+    ADD CONSTRAINT [DF__User__IdDMSFast__1ABEEF0B] DEFAULT ((2)) FOR [IdDMSFast];
+

@@ -1,0 +1,2 @@
+﻿ALTER TABLE [dbo].[AccountCancellationReason]
+    ADD CONSTRAINT [FK_AccountCancellationReason_Resource] FOREIGN KEY ([IdResource]) REFERENCES [dbo].[Resource] ([IdResource]) ON DELETE NO ACTION ON UPDATE NO ACTION;

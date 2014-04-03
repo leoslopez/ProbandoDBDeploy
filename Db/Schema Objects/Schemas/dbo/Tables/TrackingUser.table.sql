@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[TrackingUser] (
+    [userId]           INT           IDENTITY (1, 1) NOT NULL,
+    [uniqueUserId]     VARCHAR (200) NOT NULL,
+    [trackingActivity] VARCHAR (MAX) NULL,
+    PRIMARY KEY CLUSTERED ([userId] ASC) WITH (FILLFACTOR = 100, ALLOW_PAGE_LOCKS = ON, ALLOW_ROW_LOCKS = ON, PAD_INDEX = OFF, IGNORE_DUP_KEY = OFF, STATISTICS_NORECOMPUTE = OFF)
+);
+
+
+

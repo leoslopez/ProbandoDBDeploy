@@ -1,4 +1,0 @@
-﻿-- ALTERS TABLE TO SUPPORT NEW COLUMNS
-ALTER TABLE  [dbo].[SubscribersList] 
-ADD [UTCDeleteDate] DATETIME NULL;
-GO

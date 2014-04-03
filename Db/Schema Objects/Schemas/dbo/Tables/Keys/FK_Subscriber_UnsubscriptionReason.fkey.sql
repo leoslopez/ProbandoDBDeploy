@@ -1,0 +1,2 @@
+﻿/*ALTER TABLE [dbo].[Subscriber]
+    ADD CONSTRAINT [FK_Subscriber_UnsubscriptionReason] FOREIGN KEY ([IdUnsubscriptionReason]) REFERENCES [dbo].[UnsubscriptionReason] ([IdUnsubscriptionReason]) ON DELETE NO ACTION ON UPDATE NO ACTION;*/

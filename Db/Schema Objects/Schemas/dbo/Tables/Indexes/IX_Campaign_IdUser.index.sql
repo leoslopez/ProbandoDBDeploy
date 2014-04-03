@@ -1,0 +1,7 @@
+﻿CREATE NONCLUSTERED INDEX [IX_Campaign_IdUser]
+    ON [dbo].[Campaign]([IdUser] ASC, [Active] ASC, [Status] ASC, [UTCSentDate] ASC, [CampaignType] ASC, [TestABCategory] ASC)
+    INCLUDE([Name], [Subject]) WITH (FILLFACTOR = 100, ALLOW_PAGE_LOCKS = ON, ALLOW_ROW_LOCKS = ON, PAD_INDEX = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, IGNORE_DUP_KEY = OFF, STATISTICS_NORECOMPUTE = OFF, ONLINE = OFF, MAXDOP = 0)
+    ON [Campaign];
+
+
+

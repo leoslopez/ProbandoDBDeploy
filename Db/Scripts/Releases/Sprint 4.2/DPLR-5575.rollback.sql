@@ -1,0 +1,2 @@
+ALTER TABLE dbo.Subscriber
+DROP COLUMN UnsubscriptionSubreason, UnsubscriptionDescription 

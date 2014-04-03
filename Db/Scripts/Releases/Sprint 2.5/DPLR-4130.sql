@@ -1,0 +1,4 @@
+﻿-- ALTERS TABLE TO SUPPORT NEW COLUMNS
+ALTER TABLE  [dbo].[User] 
+ADD [IdBillingSystem] INT NULL;
+GO

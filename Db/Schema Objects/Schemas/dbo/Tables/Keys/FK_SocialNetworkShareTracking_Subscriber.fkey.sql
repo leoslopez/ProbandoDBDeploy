@@ -1,0 +1,2 @@
+﻿/*ALTER TABLE [dbo].[SocialNetworkShareTracking]
+    ADD CONSTRAINT [FK_SocialNetworkShareTracking_Subscriber] FOREIGN KEY ([IdSubscriber]) REFERENCES [dbo].[Subscriber] ([IdSubscriber]) ON DELETE CASCADE ON UPDATE NO ACTION;*/

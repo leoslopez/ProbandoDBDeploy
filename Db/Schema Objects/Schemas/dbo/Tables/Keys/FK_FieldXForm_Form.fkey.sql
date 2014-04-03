@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[FieldXForm]
+    ADD CONSTRAINT [FK_FieldXForm_Form] FOREIGN KEY ([IdForm]) REFERENCES [dbo].[Form] ([IdForm]) ON DELETE CASCADE ON UPDATE NO ACTION;
+

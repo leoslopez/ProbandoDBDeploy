@@ -1,0 +1,7 @@
+﻿
+CREATE PROCEDURE [dbo].[Global_Settings_GA]
+AS
+SET NOCOUNT ON
+
+SELECT Name, Setting
+FROM Setting WITH(NOLOCK)

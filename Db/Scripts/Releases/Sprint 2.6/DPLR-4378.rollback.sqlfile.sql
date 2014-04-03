@@ -1,0 +1,4 @@
+﻿-- DELETE THE COLUMN ADDED
+ALTER TABLE  [dbo].[SubscribersList] 
+DROP COLUMN	[UTCDeleteDate]
+GO

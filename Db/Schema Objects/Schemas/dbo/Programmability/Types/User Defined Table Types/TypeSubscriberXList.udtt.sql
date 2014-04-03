@@ -1,0 +1,1 @@
+﻿CREATE TYPE TypeSubscriberXList AS TABLE ( IdSubscriber BIGINT ) 

@@ -1,0 +1,1 @@
+﻿CREATE TYPE TypeFieldXSubscriber AS TABLE ( IdField INT, IdSubscriber BIGINT, Value NVARCHAR(400) )

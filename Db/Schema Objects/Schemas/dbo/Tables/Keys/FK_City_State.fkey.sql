@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[City]
+    ADD CONSTRAINT [FK_City_State] FOREIGN KEY ([IdState]) REFERENCES [dbo].[State] ([IdState]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
